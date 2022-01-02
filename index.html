@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app</title>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <script src="./script.js" defer></script>
+</head>
+
+<body>
+  
+  <div class="container-fluid">
+      <h2 class="Upper-header"> <br>  Aktuelle Wetterinformationen <br> <br> </h2>
+          <section class="main">
+           
+            <h3 class="lower-header"> <br> Stadtnamen eingeben </h3>
+          <div class="inputs">
+              <input type="text" placeholder="Stadtname" id="cityinput">
+              <input type="submit" value="Stadt suchen" id="add">
+             <!-- <button placeholder="Stadt suchen" id="add"></button> --> 
+          </div>
+            <div class="display">
+              <div class="wrapper">
+                  <h3 id="cityoutput"></h3>
+                  <p id="description"></p>
+                  <p id="temp"></p>
+                  <p id="wind"></p>
+                  <p id="minimumtemperature"></p>
+                  <p id="maximumtemperature"></p>
+                  <p id="airpressure"></p>
+                  <p id="humidity"></p>
+                  <p id="winddirection"></p>
+                  <p id="cloudcovercondition"></p>
+
+              </div>
+            </div>
+            <h2 class="footer"> <br><br> </h2>
+          </section>
+         
+
+  </div>
+
+    
+  </body>
+</html>
